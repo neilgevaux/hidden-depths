@@ -1,0 +1,58 @@
+// styles.scss
+// findme note: all temporary styles until addin bootstrap sass
+
+.testing {
+  width: percentage(5/7);
+}
+
+.banner {
+  background-color: rgba(0.1, 0.1, 0.1, 0.8);
+  justify-content: space-around;
+}
+
+.full-cover {
+  height: 100%;
+  background-size: cover;
+}
+
+body,html {
+  height: 100%;
+  display: block;
+}
+
+/*padding top big */
+.pt-b {
+  padding-top: 200px;
+  padding-bottom: 200px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+
+.massive {
+  font-size: 10rem;
+}
+
+.bigtitle {
+  position:absolute;
+  top:70px;
+  z-index:1000;
+  left:0;
+  right:0;
+}
+
+.video-wrapper {
+  top:70px;
+  margin:0;
+  padding:0;
+  left:0;
+  right:0;
+  position:absolute;
+  z-index:500;
+  overflow:hidden;height:100%;
+}
+
+.video-wrapper video{
+  min-height:100%;
+  min-width:100%;
+}
